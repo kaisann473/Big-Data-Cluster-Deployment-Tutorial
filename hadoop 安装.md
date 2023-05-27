@@ -504,7 +504,7 @@ hadoop完全分布式
 [Hadoop 3 default ports](https://www.stefaanlippens.net/hadoop-3-default-ports.html)  
 [Hadoop解决 java.net.BindException: Port in use: hadoop103:8088](https://blog.csdn.net/weixin_43950862/article/details/114481146)  
 [Hadoop hdfs 访问权限问题](https://www.cnblogs.com/kpwong/p/13869301.html)  
-hadoop ha
+hadoop ha  
 [七、Hadoop3.3.1 HA 高可用集群QJM （基于Zookeeper，NameNode高可用+Yarn高可用）](https://www.cnblogs.com/lehoso/p/15591387.html#%E4%BF%AE%E6%94%B9-vim-core-sitexml)  
 [Hadoop3.x入门-搭建3节点Hadoop HA集群](https://blog.csdn.net/u013189824/article/details/123947841)  
 [Hadoop集群大数据解决方案之搭建Hadoop3.X+HA模式（二）](https://blog.csdn.net/LXWalaz1s1s/article/details/90734197)  
