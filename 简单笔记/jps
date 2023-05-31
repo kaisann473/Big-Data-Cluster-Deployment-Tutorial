@@ -1,0 +1,15 @@
+Jps                                 Jps守护进程
+Kafka                               Kafka守护进程
+QuorumPeerMain                      ZooKeeper守护进程
+NameNode                            Hadoop守护进程之一，是Hadoop中的主服务器，管理文件系统名称空间和对集群中存储的文件的访问
+SecondaryNameNode                   Hadoop守护进程之一，提供周期检查点和清理任务
+ResourceManager                     Hadoop守护进程之一，调度、启动每一个 Job 所属的 ApplicationMaster、另外监控 ApplicationMaster 的存在情况
+DataNode                            Hadoop守护进程之一，负责管理该节点的存储
+NodeManager                         Hadoop守护进程之一，负责 Container 状态的维护，并向 RM 保持心跳
+StandaloneSessionClusterEntrypoint  Flink守护进程之一，即JobManager。 负责整个 Flink 集群任务的调度以及资源的管理
+TaskManagerRunner                   Flink守护进程之一，即TaskManager。负责具体的任务执行和对应任务在每个节点上的资源申请和管理
+
+----
+(Hadoop守护进程)[https://blog.csdn.net/andyguan01_2/article/details/88616946]
+(Flink 架构初探)[https://www.jianshu.com/p/bf680ab50f11]
+(Flink JobManager 和 TaskManager 原理)[https://blog.51cto.com/mapaware/6000125]

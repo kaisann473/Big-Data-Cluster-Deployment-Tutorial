@@ -1,0 +1,13 @@
+Application：Spark应用程序
+指用户编写的Spark应用程序，包含了Driver功能代码和分布在集群中多个节点上运行的Executor代码 
+Spark应用程序，由一个或多个作业JOB组成
+
+Driver：驱动程序
+运行Application的Main()函数，并且创建SparkContext
+SparkContext是Spark的入口
+SparkContext负责准备Spark运行环境，和ClusterManager通信，进行资源的申请、任务的分配和监控等
+
+Cluster Manager：资源管理器
+
+Executor：执行器
+Spark程序中的一个JVM进程，负责执行Spark作业的具体任务（task），每个任务之间彼此相互独立
