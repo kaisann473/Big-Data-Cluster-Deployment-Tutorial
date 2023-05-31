@@ -36,7 +36,7 @@ docker pull kaisann/centos:slave1
 docker pull kaisann/centos:slave2
 ```
 
-- 完全版用于学习组件
+- 完全版用于(学习组件)
 
 ```shell
 docker pull kaisann/centos:master-finish
