@@ -168,6 +168,7 @@ server.3=slave2:2888:3888
 ```
 
 ```shell
+cd $ZOOKEEPER_HOME
 mkdir -p $ZOOKEEPER_HOME/data
 cd $ZOOKEEPER_HOME/data
 vim myid

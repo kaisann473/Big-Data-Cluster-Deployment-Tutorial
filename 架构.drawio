@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="G5AgoUgAaKomscsnyRAJ" name="第 1 页">
+        <mxGraphModel dx="2427" dy="1307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="40" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="1151" y="27" width="370" height="1115" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="40">
+                    <mxGeometry y="58.684210526315795" width="370" height="1056.3157894736842" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Slave2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="40">
+                    <mxGeometry x="135" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MySQL&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="40">
+                    <mxGeometry y="50" width="370" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="643" y="27" width="370" height="1115" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="39">
+                    <mxGeometry y="58.6842105263158" width="370" height="1056.3157894736844" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;slave1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="39">
+                    <mxGeometry x="140" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Redis&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="39">
+                    <mxGeometry y="58.68000000000001" width="370" height="395" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="131" y="37" width="370" height="1105" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry y="52.61904761904762" width="370" height="1052.3809523809523" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Master&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8">
+                    <mxGeometry x="135" y="-5.8465608465608465" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="8">
+                    <mxGeometry y="52.61904761904762" width="370" height="134.47089947089947" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Flume" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="8">
+                    <mxGeometry y="187.0899470899471" width="370" height="128.62433862433863" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="ClickHouse单节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="8">
+                    <mxGeometry y="320" width="370" height="117.33" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;底层框架&lt;br&gt;Zookeeper集群&lt;br&gt;&amp;nbsp;Hadoop HDFS&lt;br&gt;Hadoop YARN&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="131" y="987" width="1390" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;计算框架&lt;br&gt;Flink on Yarn&lt;br&gt;Spark on Yarn (With Hudi)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="133" y="847" width="1390" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="HBase分布式" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="133" y="477" width="1390" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Kafka分布式" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="133" y="582" width="1390" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Azkaban流程控制" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="133" y="692" width="1390" height="155" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
