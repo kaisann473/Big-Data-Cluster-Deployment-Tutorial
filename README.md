@@ -43,3 +43,16 @@ docker pull kaisann/centos:master-finish
 docker pull kaisann/centos:slave1-finish
 docker pull kaisann/centos:slave2-finish
 ```
+
+- BUG
+
+ClickHouse 无法启动
+
+```text
+2023.06.22 14:24:23.253260 [ 18179 ] {} <Error> Application: filesystem error: in rename: Invalid cross-device link [/var/lib/clickhouse/store/0cf/0cf93d21-5a39-4a97-8cf9-3d215a392a97/202305_1_11_2] [/var/lib/clickhouse/store/0cf/0cf93d21-5a39-4a97-8cf9-3d215a392a97/delete_tmp_202305_1_11_2]
+```
+原因：
+无效跨设备链接, `/var/lib/clickhouse/store`存在另一台机器的数据，照成冲突，情况`store`重启服务即可
+
+
+[Clickhouse](https://blog.csdn.net/weixin_45912745/article/details/121982209)
